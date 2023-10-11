@@ -3,8 +3,11 @@ package org.example;
 import java.util.Objects;
 
 public class Contacto {
+
+    //Atributo nombre del contacto
     private String nombre;
 
+    //Atributo numero del contacto
     private String numero;
 
 
@@ -14,20 +17,11 @@ public class Contacto {
         this.numero = numero;
     }
 
+
+    //Metodos GETs de la clase
+
     public String getNombre() {
         return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getNumero() {
-        return numero;
-    }
-
-    public void setNumero(String numero) {
-        this.numero = numero;
     }
 
     @Override
